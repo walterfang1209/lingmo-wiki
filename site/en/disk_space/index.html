@@ -1,0 +1,563 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+        <title>Disk-Space - Lingmo Wiki</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        
+        
+        
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+            <link rel="stylesheet" href="../../assets/css/darcula-highlight.min.css">
+
+        <link rel="stylesheet" href="../../assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../../assets/css/dracula-ui.min.css">
+        <link rel="stylesheet" href="../../assets/css/mkdocs.min.css">
+
+        
+            <link  rel="icon" type="image/x-icon" href="../../assets/img/favicon.ico">
+        
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+                <script>hljs.initHighlightingOnLoad();</script>
+
+</head>
+
+<body class="drac-bg-black-secondary drac-text-grey-ternary drac-text drac-scrollbar-purple">
+
+    <main class="d-flex">
+
+        <!-- block sidebar -->
+            <nav id="sidebar" class="sidebar drac-bg-black">
+    <div class="custom-menu">
+        <button type="button" id="sidebarCollapse" class="btn btn-primary">
+            <i class="fa fa-bars"></i>
+            <span class="sr-only">Menu</span>
+        </button>
+    </div>
+
+    <div class="p-4">
+        
+            <img class="logo" src="../../img/favicon.ico" height="150px">
+        
+
+        <div class="drac-text-center">
+            
+                <span class="drac-text drac-line-height drac-text-white">Lingmo Wiki</span>
+            
+        </div>
+
+        <div class="drac-box flex-column">
+            <ul class="dot-ul">
+                <li><div class="dot-li drac-bg-cyan"></div></li>
+                <li><div class="dot-li drac-bg-green"></div></li>
+                <li><div class="dot-li drac-bg-orange"></div></li>
+                <li><div class="dot-li drac-bg-pink"></div></li>
+                <li><div class="dot-li drac-bg-purple"></div></li>
+                <li><div class="dot-li drac-bg-red"></div></li>
+                <li><div class="dot-li drac-bg-yellow"></div></li>
+            </ul>
+        </div>
+
+        <hr class="drac-divider" />
+
+        <!-- block menu -->
+        <ul class="mb-5 drac-list drac-list-none">
+            
+            <li class="drac-box">
+                <a href="../.."
+                    class="
+                    drac-anchor btn-toggle d-inline-flex align-items-center border-0 drac-text-purple--hover collapsed"
+                    data-bs-toggle="collapse" data-bs-target="#简体中文-collapse" aria-expanded="false">
+                    简体中文
+                </a>
+                <div class="collapse" id="简体中文-collapse">
+                    <ul class="mb-5 drac-list drac-list-none">
+                            
+    <li class="drac-box-ternary">
+        <a href="../../zh/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            安装教程
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../../zh/about/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            关于
+        </a>
+    </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="drac-box">
+                <a href="../.."
+                    class=" active 
+                    drac-anchor btn-toggle d-inline-flex align-items-center border-0 drac-text-purple--hover collapsed"
+                    data-bs-toggle="collapse" data-bs-target="#english-collapse" aria-expanded="false">
+                    English
+                </a>
+                <div class="collapse" id="english-collapse">
+                    <ul class="mb-5 drac-list drac-list-none">
+                            
+    <li class="drac-box-ternary">
+        <a href="../"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Installation
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="./"
+            class=" active 
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Disk-Space
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../about/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            About
+        </a>
+    </li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+        <!-- endblock -->
+    </div>
+</nav>
+        <!-- endblock -->
+
+        <nav class="divider drac-bg-purple-cyan"></nav>
+
+        <div class="content">
+            <!-- block header -->
+                <header>
+    <nav class="navbar navbar-expand-xl drac-bg-purple">
+        <div class="container-fluid">
+            
+            <button class="navbar-toggler w-100 text-center" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsMenu"
+                aria-controls="navbarsMenu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse flex-column ml-auto" id="navbarsMenu">
+                <ul class="navbar-nav text-md-center">
+
+                    <!-- block preview -->
+                    <li class="nav-item">
+                            
+        <div class="container">
+            <div class="row row-preview">
+                <div class="col">
+                    <a href="../"
+                        class="btn-preview drac-btn drac-btn-outline drac-text-white drac-text-cyan-green--hover">
+                        <i class="fa fa-arrow-left"></i> Previous
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="../about/"
+                        class="btn-preview drac-btn drac-btn-outline drac-text-white drac-text-cyan-green--hover" style="padding-left: 3%;">
+                        Next <i class="fa fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+                    </li>
+                    <!--  endblock -->
+
+                    <!-- block search -->
+                    <li class="nav-item"><div role="search" class="search-box">
+	<form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+		<input type="text" name="q" class="drac-input drac-input-search drac-input-white drac-text-white drac-bg-black-secondary"
+		placeholder="Search docs" title="Type search term here" />
+	</form>
+</div>
+                    </li>
+                    <!--  endblock -->
+
+                    <!-- block source -->
+                    <li class="nav-item">
+                        
+                    </li>
+                    <!--  endblock -->
+
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+</header>
+            <!-- endblock -->
+
+            <!-- block content -->
+                <section class="p-md-5 section-content">
+    <article>
+        <p><h1 id="diskspace-for-a-linux-installation">DiskSpace for a Linux Installation</h1>
+<p>The goal of this page is to offer advice and strategy on partitioning a
+Linux system.</p>
+<h2 id="required-partitions">Required partitions</h2>
+<h3 id="overview">Overview</h3>
+<p>The easiest partitioning scheme, on a <strong>non-GPT</strong> disk, is simply a root
+partition and a swap partition.</p>
+<table>
+<thead>
+<tr>
+<th><strong>Name</strong></th>
+<th><strong>Size</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>swap</code></td>
+<td>size of RAM</td>
+</tr>
+<tr>
+<td><code>/</code></td>
+<td>the rest of the disk</td>
+</tr>
+</tbody>
+</table>
+<p>If the disk is <strong>GPT</strong> type (this can be checked via the \"sudo parted
+-l\" command), you must also add a BIOS-Boot or an EFI partition
+depending on the boot mode of your BIOS.</p>
+<table>
+<thead>
+<tr>
+<th><strong>Name</strong></th>
+<th><strong>Size</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>BIOS-boot</code> or <code>EFI</code></td>
+<td>see below</td>
+</tr>
+<tr>
+<td><code>swap</code></td>
+<td>size of RAM</td>
+</tr>
+<tr>
+<td><code>/</code></td>
+<td>the rest of the disk</td>
+</tr>
+</tbody>
+</table>
+<p>On some computers, a separate /boot partition may also be required.</p>
+<p>See paragraphs below.</p>
+<h3 id="root-partition-always-required">Root partition (always required)</h3>
+<ul>
+<li>Mount point: /</li>
+<li>Type: Linux type (generally EXT4)</li>
+<li>Description: the root partition contains by default all your system
+    files, program settings and documents.</li>
+<li>Size: minimum is 8 GB. It is recommended to make it at least 15 GB.
+    Warning: your system will be blocked if the root partition is full.</li>
+</ul>
+<h3 id="swap-very-recommended">Swap (very recommended)</h3>
+<ul>
+<li>
+<p>Mount point: none</p>
+</li>
+<li>
+<p>Type: SWAP</p>
+</li>
+<li>
+<p>Description: see <a href="/">SwapFaq</a>.</p>
+</li>
+<li>
+<p>Size: size of your RAM.</p>
+</li>
+</ul>
+<h3 id="separate-boot-sometimes-required">Separate /boot (sometimes required)</h3>
+<p>Some computers can\'t see boot files (/boot) if located far (&gt;100GB)
+from the start of the disk. This is why it is sometimes necessary to
+create a separate /boot partition at the start of the disk. Remark:
+don\'t use the same /boot for several Linux distributions, as it may mix
+up their kernels. See <a href="/">this tutorial</a> if you
+want to create a separate /boot after installing LingmoOS.</p>
+<table>
+<thead>
+<tr>
+<th><strong>Name</strong></th>
+<th><strong>Size</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>/boot</code></td>
+<td>250MB \~ 1GB</td>
+</tr>
+<tr>
+<td><code>swap</code></td>
+<td>at least size of RAM</td>
+</tr>
+<tr>
+<td><code>/</code></td>
+<td>minimum 8 GB, at least 15 GB recommended</td>
+</tr>
+</tbody>
+</table>
+<h3 id="bios-boot-or-efi-partition-required-on-gpt-disks">BIOS-Boot or EFI partition (required on GPT disks)</h3>
+<p>If you want to install LingmoOS on a <strong>GPT disk</strong> (you can check it via
+the \'sudo parted -l\' command), you will need either an EFI partition
+(if your BIOS is set up in EFI mode) <strong>or</strong> a BIOS-Boot partition (if
+your BIOS is set up in Legacy mode).</p>
+<p><strong>BIOS-Boot partition:</strong></p>
+<ul>
+<li>Mount point: none</li>
+<li>Type: no filesystem</li>
+<li>Description: the BIOS-boot partition contains GRUB 2\'s core. It is
+    necessary if you install LingmoOS on a GPT disk, and if the firmware
+    (BIOS) is set up in Legacy (not EFI) mode. It must be located at the
+    start of a GPT disk, and have a \"bios_grub\" flag.</li>
+<li>Size: 1MB.</li>
+</ul>
+<p><strong>EFI partition:</strong></p>
+<ul>
+<li>
+<p>Mount point: /boot/efi (no need to set up this mount point as the
+    installer will do it automatically)</p>
+</li>
+<li>
+<p>Type: FAT (generally FAT32)</p>
+</li>
+<li>
+<p>Description: the EFI partition (also called ESP) contains some boot
+    files. It is necessary if the firmware (BIOS) is set up to boot the
+    HDD in EFI mode (which is default on more and more modern, &gt; year
+    2011 computers). It must be located at the start of a GPT disk, and
+    have a \"boot\" flag.</p>
+</li>
+<li>
+<p>Size: 100\~250MB</p>
+</li>
+</ul>
+<h2 id="optional-partitions">Optional partitions</h2>
+<p>Optionally, some other partitions can be created for specific usages. Be
+careful, these partitions reduce the flexibility of your disk space,
+they must be considered only if you are sure not to fill completely your
+root partition (which would block your system).</p>
+<h3 id="partition-for-sharing-data-with-windows-macos-optional">Partition for sharing data with Windows, MacOS... (optional)</h3>
+<ul>
+<li>Mount point: /media/thenameyouwish</li>
+<li>Type: to share data with Windows, choose NTFS. To share data with
+    MacOS, choose HFS+. To share data with another Linux system, choose
+    EXT4.</li>
+<li>Description: other operating systems (Windows, MacOS..) cannot read
+    nor write in the LingmoOS partitions, but LingmoOS can read and write in
+    any partition. If you want to share files between LingmoOS and the
+    other systems, it is recommended to create a data partition. It is
+    not recommended to share files directly into the Windows system
+    partition (eg files may be overwritten by hibernation).</li>
+<li>Size: as you wish</li>
+</ul>
+<h3 id="separate-home-optional">Separate /home (optional)</h3>
+<ul>
+<li>
+<p>Mount point: /home</p>
+</li>
+<li>
+<p>Type: Linux type (generally EXT4)</p>
+</li>
+<li>
+<p>Description: see <a href="/">HomeFolder</a>. When your hard
+    disk is big enough, a separate <code>/home</code> allows to separate your
+    settings (and also your data if you don\'t use a data partition, see
+    previous paragraph) from the rest of the system. A separate <code>/home</code>
+    does not allow to share data with Windows nor MacOS (see previous
+    paragraph).</p>
+</li>
+<li>
+<p>Size: as you wish</p>
+</li>
+</ul>
+<h3 id="more-complex-schemes">More Complex Schemes</h3>
+<p><em>For more information on what various directories are used for, see <a href="http://tldp.org/LDP/Linux-Filesystem-Hierarchy/html/">The
+Linux Filesystem
+Hierarchy</a>.</em></p>
+<p>More complex schemes could involve creating a separate partition for any
+number of the default folders used by LingmoOS. System critical folders
+are important to protect, and since drives, and / or partitions do fail,
+it is often useful to have your file system broken down into as many
+small parts as possible. This can be over done however. Installing every
+core directory to its own partition could cause a noticeable degradation
+of performance.\
+Bearing that in mind, the following directories should <strong>NEVER</strong> be
+placed in their own separate partitions:</p>
+<table>
+<thead>
+<tr>
+<th><strong>Name</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>/bin</code></td>
+<td>This directory stores the system wide executables that are accessible by most users.</td>
+</tr>
+<tr>
+<td><code>/sbin</code></td>
+<td>This directory holds the executables used for core system functions, and used by the system administrator to maintain the system. <strong>See Note Below</strong></td>
+</tr>
+<tr>
+<td><code>/proc</code></td>
+<td>This is a system use directory containing process information. Almost never accessed by a user.</td>
+</tr>
+<tr>
+<td><code>/dev</code></td>
+<td>This directory contains system created links to your installed hardware, and like <code>/proc</code> is almost never accessed directly.</td>
+</tr>
+</tbody>
+</table>
+<h4 id="note-about-sbin">Note about /sbin</h4>
+<p>It can be argued, and reasonably so, that moving this directory to its
+own partition is a wise choice. If any of your partitions or drives
+should fail, then this directory / partition will be the one that most
+likely contains the tools you will need to repair it. So while moving
+this would decrease performance marginally, it could also be considered
+a wise move.</p>
+<h4 id="sizes-for-alternative-schemes">Sizes For Alternative Schemes</h4>
+<p>On a six month old installation of Ubuntu 10.04.3 LTS (very old now) the disk usage
+could resemble something like this: (examples taken from a system
+with many extra packages installed)</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Actual</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Name</td>
+<td>Size</td>
+<td>Recommended Partition Size</td>
+</tr>
+<tr>
+<td>/home</td>
+<td>179.5&nbsp;GB</td>
+<td>Everything not used elsewhere, or separate drive.</td>
+</tr>
+<tr>
+<td>/usr</td>
+<td>7.6&nbsp;GB</td>
+<td>10&nbsp;GB</td>
+</tr>
+<tr>
+<td>/var</td>
+<td>988.2&nbsp;MB</td>
+<td>2&nbsp;GB</td>
+</tr>
+<tr>
+<td>/lib</td>
+<td>599.9&nbsp;MB</td>
+<td>5&nbsp;GB</td>
+</tr>
+<tr>
+<td>/boot</td>
+<td>137.1&nbsp;MB</td>
+<td>250&nbsp;MB</td>
+</tr>
+<tr>
+<td>/opt</td>
+<td>95.3&nbsp;MB</td>
+<td>500&nbsp;MB&nbsp;to&nbsp;5&nbsp;GB This directory is not used by mainline software packages, but mostly from packages coming from the universe repositories.  If you do not use the universe repositories often, you probably will not need much space here.</td>
+</tr>
+<tr>
+<td>/etc</td>
+<td>18.8&nbsp;MB</td>
+<td>250&nbsp;MB</td>
+</tr>
+<tr>
+<td>/sbin</td>
+<td>7.8&nbsp;MB</td>
+<td>250&nbsp;MB</td>
+</tr>
+<tr>
+<td>/bin</td>
+<td>6.5&nbsp;MB</td>
+<td>250&nbsp;MB</td>
+</tr>
+<tr>
+<td>/dev</td>
+<td>876.0&nbsp;KB</td>
+<td>DO NOT PARTITION</td>
+</tr>
+<tr>
+<td>/srv</td>
+<td>200&nbsp;KB</td>
+<td>Unless you plan on installing web served data here, or are using a Server version of LingmoOS, this will not often need to be larger than 100 MB.  If you are running a server, or plan to expand it yourself, plan ahead when sizing this.</td>
+</tr>
+<tr>
+<td>/tmp</td>
+<td>88&nbsp;KB</td>
+<td>This can get fairly large, but not larger than your swap space as a rule, so size this to match /swap</td>
+</tr>
+<tr>
+<td>/mnt</td>
+<td>8&nbsp;kB (do not partition)</td>
+<td>This is just an empty directory that serves as a mount point for temporary file systems, e.g. a rarely used network filesystem.</td>
+</tr>
+<tr>
+<td>/media</td>
+<td>8&nbsp;kB (do not partition)</td>
+<td>This contains subdirectories that are mount points for removable media like CDs and USB flash drives.</td>
+</tr>
+</tbody>
+</table>
+<p>The above recommendations assume you are using large modern hard drives
+and can afford the space.</p>
+<h2 id="space-requirements">Space Requirements</h2>
+<h3 id="absolute-requirements">Absolute Requirements</h3>
+<p>The required disk space for an out-of-the-box LingmoOS installation is
+said to be 25 GB. However, that does not take into account the space
+needed for a file-system or a swap partition.</p>
+<p>It is more realistic to give yourself a little bit more than 15 GB of
+space. Give yourself 15-25 GB to have some space left for actually doing
+things. If your file-system is full to the brim, you will feel some
+performance loss.</p>
+<p>A certain percentage of an ext3 file-system is dedicated to root, as a
+way of preventing a rogue process from filling the disk to the point
+that the system is unusable. This dedicated portion is 5% by default.
+Also, the anti-fragmentation strategies used by Linux file-systems
+require that the disk is not close to full. A rule of thumb is to keep
+them less than 90% full.</p></p>
+    </article>
+</section>
+            <!-- endblock -->
+
+            <!-- block footer -->
+                <footer>
+    <div class="d-flex flex-sm-row justify-content-between py-2 border-top drac-text-black drac-bg-cyan-green">
+        <a href="https://github.com/dracula/mkdocs" target="_blank" style="padding-left: 1%;"
+            class="footer-text drac-anchor drac-text-black drac-text-purple--hover">
+            Made with Dracula Theme for MkDocs
+        </a>
+    </div>
+</footer>
+            <!-- endblock -->
+        </div>
+
+    </main>
+
+        <script>var base_url = '../..';</script>
+        <script src="../../assets/js/jquery-3.3.1.slim.min.js"></script>
+        <script src="../../assets/js/bootstrap.bundle.min.js"></script>
+        <script src="../../assets/js/mkdocs.js"></script>
+			<script src="../../search/main.js" defer></script>
+
+</body>
+
+</html>
