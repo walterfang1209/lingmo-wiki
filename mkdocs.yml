@@ -15,7 +15,9 @@ nav:
     - 简体中文: 
         - 安装教程: zh/index.md
         - 关于: zh/about.md
+        - 常见问题解答: zh/faq.md
     - English: 
         - Installation: en/index.md
         - Disk-Space: en/disk_space.md
         - About: en/about.md
+        - FAQ: en/faq.md
